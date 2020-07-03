@@ -28,7 +28,7 @@ kubectl expose deployment laravel-crud --port=8000 --target-port=80 --type=NodeP
 # TODO: deploy database
 ```
 
-## Chech service
+## Check service
 
 ```
 kubectl get svc laravel-crud -n prd
